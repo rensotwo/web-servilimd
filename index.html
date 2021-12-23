@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== Normalize ===============-->
+    <link rel="stylesheet" href="assets/css/normalize.css">
+
+    <!--=============== Favicon ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== Remix Icons ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== Slider Swiper Css ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== Css ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>ServiLimd</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="assets/img/logo.svg" alt="Logo de ServiLimd" class="nav__logo-img">
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Inicio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">Servicios</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#function" class="nav__link">¿Cómo Funciona?</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#price" class="nav__link">Precios</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">Trabaja con Nosotros</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Toggle button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+
+        <!--=============== Home ===============-->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <img src="assets/img/presentacion.png" alt="Presentación de ServiLimd" class="home__img">
+
+                <div class="home__data">
+                    <h1 class="home__data-title">Servicios de Limpieza Doméstica</h1>
+                    <p class="home__data-description">
+                        Hacemos que tu imagen brille con una 
+                        <span class="text-medium">limpieza profesional</span> 
+                        para tu casa. Agenda con nosotros y siente la tranquilidad y flexibilidad de confiar en 
+                        <span class="text-medium">Servilimd.</span>
+                    </p>
+                    <a href="https://api.whatsapp.com/send?phone=+593961258048&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20reservar%20sus%20servicios." target="_blank" class="button-principal">Reservar limpieza</a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== Nuestros Servicios ===============-->
+        <section class="services section" id="services">
+            <h2 class="section__title">Nuestros Servicios</h2>
+            <p class="services__description">
+                Sabemos que el tiempo es oro, y que el tuyo vale mucho más, queremos que lo aproveches y no te preocupes más de limpiar tu casa. <br>
+                <span class="text-medium">¡Para eso estamos nosotros!</span>
+            </p>
+
+            <div class="services__container container grid">
+                <div class="services__card">
+                    <img src="assets/img/limpieza-de-espacios.png" alt="Limpieza de espacios" class="services__card-img">
+                    <h3 class="services__card-title">Limpieza de espacios</h3>
+                    <p>Limpieza de todas o solo las zonas que tu prefieras de la casa.</p>
+                </div>
+
+                <div class="services__card">
+                    <img src="assets/img/organizacion-de-espacios.png" alt="Organización de espacios" class="services__card-img">
+                    <h3 class="services__card-title">Organización de espacios</h3>
+                    <p>No te preocupes más por la organización de tu hogar.</p>
+                </div>
+
+                <div class="services__card">
+                    <img src="assets/img/lavado.png" alt="Lavador de ropa" class="services__card-img">
+                    <h3 class="services__card-title">Lavado</h3>
+                    <p>Nosotros nos encargamos de dejar tu ropa limpia.</p>
+                </div>
+
+                <div class="services__card">
+                    <img src="assets/img/planchado.png" alt="Planchado" class="services__card-img">
+                    <h3 class="services__card-title">Planchado</h3>
+                    <p>Dile adiós a la plancha y ahórrate horas de planchado.</p>
+                </div>
+
+                <div class="services__card">
+                    <img src="assets/img/cocina.png" alt="Cocina" class="services__card-img">
+                    <h3 class="services__card-title">Cocina</h3>
+                    <p>Si no te da el tiempo de cocinar estamos para ayudarte.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== Cómo Funciona ===============-->
+        <section class="function section" id="function">
+            <h2 class="section__title">¿Cómo Solicitar Servicios?</h2>
+
+            <div class="function__container container grid">
+                <div class="function__list grid">
+                    <div class="function__item grid">
+                        <div class="function__circle">
+                            <p class="function__circle-number">1</p>
+                        </div>
+                        
+                        <div class="function__description">
+                            <h3 class="function__description-title">Verificar planes</h3>
+                            <p>Contamos con varios planes tanto diarios como mensuales conocelos y mira cual es el que más te conviene.</p>
+                        </div>
+                    </div>
+
+                    <div class="function__item grid">
+                        <div class="function__circle">
+                            <p class="function__circle-number">2</p>
+                        </div>
+                        
+                        <div class="function__description">
+                            <h3 class="function__description-title">Reservar limpieza</h3>
+                            <p>En la página existen varios botones para realizar una reserva, estos botones los dirigirán a <a href="#" class="text-color">WhatsApp.</a></p>
+                        </div>
+                    </div>
+
+                    <div class="function__item grid">
+                        <div class="function__circle">
+                            <p class="function__circle-number">3</p>
+                        </div>
+                        
+                        <div class="function__description">
+                            <h3 class="function__description-title">Atención al cliente vía WhatsApp</h3>
+                            <p>Al estar en WhatsApp pueden realizar cualquier consulta de alguna duda que haya quedado sobre nuestros servicios.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="function__right">
+                    <img src="assets/img/call-center.png" alt="Call center" class="function__img">
+                    <a href="https://api.whatsapp.com/send?phone=+593961258048&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s%20sobre%20sus%20servicios." target="_blank" class="button-principal button-principal--aling">
+                        <i class="ri-whatsapp-line"></i>
+                        <span class="">WhatsApp</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== Precios ===============-->
+        <section class="price section" id="price">
+            <h2 class="section__title">Precios</h2>
+
+            <div class="price__container container">
+                <h3 class="price__subtitle">Servicios diarios</h3>
+                <div class="swiper new-swiper">
+                    <div class="swiper-wrapper">
+                        <article class="price__card swiper-slide">
+                            <div>
+                                <h4 class="price__title">Básico</h4>
+                                <div class="price__item">
+                                    <i class="ri-check-line"></i>
+                                    <p>Limpieza</p>
+                                </div>
+                                <div class="price__item">
+                                    <i class="ri-check-line"></i>
+                                    <p>Organización</p>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div>
+                                    <span class="price__dollar">$</span>
+                                    <span class="price__cant">14.99</span>
+                                    <span class="price__hours">/2Horas</span>
+                                </div>
+                                <a href="https://api.whatsapp.com/send?phone=+593961258048&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20reservar%20el%20Servicio%20b%C3%A1sico%20de%202%20horas." target="_blank" class="button-card">Reservar</a>
+                            </div>
+                        </article>
+
+                        <article class="price__card swiper-slide">
+                            <div>
+                                <h4 class="price__title">Recomendado</h4>
+                                <div class="price__item">
+                                    <i class="ri-check-line"></i>
+                                    <p>Limpieza</p>
+                                </div>
+                                <div class="price__item">
+                                    <i class="ri-check-line"></i>
+                                    <p>Organización</p>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div>
+                                    <span class="price__dollar">$</span>
+                                    <span class="price__cant">19.99</span>
+                                    <span class="price__hours">/3Horas</span>
+                                </div>
+                                <a href="https://api.whatsapp.com/send?phone=+593961258048&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20reservar%20el%20Servicio%20Recomendado%20de%203%20horas." target="_blank" class="button-card">Reservar</a>
+                            </div>
+                        </article>
+
+                        <article class="price__card swiper-slide">
+                            <div>
+                                <h4 class="price__title">Recomendado Plus</h4>
+                                <div class="price__item">
+                                    <i class="ri-check-line"></i>
+                                    <p>Limpieza</p>
+                                </div>
+                                <div class="price__item">
+                                    <i class="ri-check-line"></i>
+                                    <p>Organización</p>
+                                </div>
+                                <div class="price__item">
+                                    <i class="ri-check-line"></i>
+                                    <p>Lavado o Cocina</p>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div>
+                                    <span class="price__dollar">$</span>
+                                    <span class="price__cant">24.99</span>
+                                    <span class="price__hours">/4Horas</span>
+                                </div>
+                                <a href="https://api.whatsapp.com/send?phone=+593961258048&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20reservar%20el%20Servicio%20Recomendado%20Plus%20de%204%20horas." target="_blank" class="button-card">Reservar</a>
+                            </div>
+                        </article>
+
+                        <article class="price__card swiper-slide">
+                            <div>
+                                <h4 class="price__title">Limpio</h4>
+                                <div class="price__item">
+                                    <i class="ri-check-line"></i>
+                                    <p>Limpieza</p>
+                                </div>
+                                <div class="price__item">
+                                    <i class="ri-check-line"></i>
+                                    <p>Organización</p>
+                                </div>
+                                <div class="price__item">
+                                    <i class="ri-check-line"></i>
+                                    <p>Lavado</p>
+                                </div>
+                                <div class="price__item">
+                                    <i class="ri-check-line"></i>
+                                    <p>Cocina</p>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div>
+                                    <span class="price__dollar">$</span>
+                                    <span class="price__cant">34.99</span>
+                                    <span class="price__hours">/6Horas</span>
+                                </div>
+                                <a href="https://api.whatsapp.com/send?phone=+593961258048&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20reservar%20el%20Servicio%20Limpio%20de%206%20horas." target="_blank" class="button-card">Reservar</a>
+                            </div>
+                        </article>
+
+                        <article class="price__card swiper-slide">
+                            <div>
+                                <h4 class="price__title">Super Limpio</h4>
+                                <div class="price__item">
+                                    <i class="ri-check-line"></i>
+                                    <p>Limpieza</p>
+                                </div>
+                                <div class="price__item">
+                                    <i class="ri-check-line"></i>
+                                    <p>Organización</p>
+                                </div>
+                                <div class="price__item">
+                                    <i class="ri-check-line"></i>
+                                    <p>Lavado</p>
+                                </div>
+                                <div class="price__item">
+                                    <i class="ri-check-line"></i>
+                                    <p>Cocina</p>
+                                </div>
+                                <div class="price__item">
+                                    <i class="ri-check-line"></i>
+                                    <p>Planchado</p>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div>
+                                    <span class="price__dollar">$</span>
+                                    <span class="price__cant">44.99</span>
+                                    <span class="price__hours">/8Horas</span>
+                                </div>
+                                <a href="https://api.whatsapp.com/send?phone=+593961258048&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20reservar%20el%20Servicio%20Super%20Limpio%20de%208%20horas." target="_blank" class="button-card">Reservar</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+            <!-- Planes personalizados -->
+            <div class="price__custom container grid">
+                <div class="price__description">
+                    <h3 class="price__subtitle">Planes personalizados</h3>
+                    <p class="price__text">Si necesita servicios personalizados usted puede elegir que servicio requiere y nosotros nos encargamos de cotizar de acuerdo a sus necesidades.</p>
+                    <img src="assets/img/plan-personalizado.png" alt="Plan personalizado" class="price__img">
+                </div>
+
+                <div class="price__cards">
+                    <article class="price__card-custom">
+                        <div>
+                            <h4 class="price__title">Plan Hogar</h4>
+                            <div class="price__item">
+                                <i class="ri-check-line"></i>
+                                <p>Limpieza</p>
+                            </div>
+                            <div class="price__item">
+                                <i class="ri-check-line"></i>
+                                <p>Organización</p>
+                            </div>
+                            <div class="price__item">
+                                <i class="ri-check-line"></i>
+                                <p>Lavado</p>
+                            </div>
+                            <div class="price__item">
+                                <i class="ri-check-line"></i>
+                                <p>Cocina</p>
+                            </div>
+                            <div class="price__item price__item--top">
+                                <i class="ri-check-line "></i>
+                                <p>Un día a la semana 4 horas de servicios de limpieza, organización y lavado más las 2 horas de cocina.</p>
+                            </div>
+                            <div class="price__item price__item--top">
+                                <i class="ri-check-line"></i>
+                                <p>De lunes a viernes por día 2 horas de cocina</p>
+                            </div>
+                            <div class="price__item price__item--top">
+                                <i class="ri-check-line"></i>
+                                <p>Servicio de lunes a viernes por un mes</p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div>
+                                <span class="price__dollar">$</span>
+                                <span class="price__cant">244.99</span>
+                                <span class="price__hours">Mensual</span>
+                            </div>
+                            <a href="https://api.whatsapp.com/send?phone=+593961258048&text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20reservar%20el%20Plan%20hogar." target="_blank" class="button-card">Reservar</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== Trabaja con Nosotros ===============-->
+        <section class="work section" id="work">
+            <div class="work__container container">
+                <h2 class="work__title">Trabaja con Nosotros</h2>
+
+                <div class="work__description grid">
+                    <p class="work__text">Si es de su interes llegar a trabajar con nosotros no dudes más en consultar de que manera puedes llegar a formar parte de esta familia.</p>
+                    <a href="https://forms.gle/TJmSKFmvS64CVRaV7" target="_blank" class="work__link">
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer section">
+        <div class="footer__container container">
+            <a href="#" class="footer__logo">
+                <img src="assets/img/logo.svg" alt="Logo de ServiLimd" class="nav__logo-img">
+            </a>
+
+            <ul class="footer__links grid">
+                <li>
+                    <a href="#home" class="footer__link">Inicio</a>
+                </li>
+                <li>
+                    <a href="#services" class="footer__link">Servicios</a>
+                </li>
+                <li>
+                    <a href="#function" class="footer__link">¿Cómo funciona?</a>
+                </li>
+                <li>
+                    <a href="#price" class="footer__link">Precios</a>
+                </li>
+                <li>
+                    <a href="#work" class="footer__link">Trabaja con nosotros</a>
+                </li>
+            </ul>
+
+            <span class="footer__copy">&#169; Servilimd. Todos los derechos reservados</span>
+        </div>
+    </footer>
+
+    <!--=============== Scroll Up ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+    
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== Slider Swiper Js ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== Main Js ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
