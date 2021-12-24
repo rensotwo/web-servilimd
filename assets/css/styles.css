@@ -63,6 +63,10 @@ img {
     display: grid;
 }
 
+.main{
+    overflow: hidden;
+}
+
 .section{
     padding-top: 7.5rem;
 }
