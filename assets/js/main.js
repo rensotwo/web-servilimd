@@ -93,6 +93,6 @@ const sr = ScrollReveal({
 })
 
 sr.reveal(`.section__title, .services__description, .price__container, .footer__container`)
-sr.reveal(`.services__card`, {interval: 100})
+sr.reveal(`.services__card, .price__card-monthly, .price__subtitle--mg`, {interval: 100})
 sr.reveal(`.home__img, .function__list, .price__description, .work__container`,{origin: 'left'})
 sr.reveal(`.home__data, .function__right, .price__cards`,{origin: 'right'})
